@@ -3,16 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Computational Creativity and Multi-Agent Systems, fall 2016
+Computational Creativity, University of Helsinki, fall 2017
 =====================================================================================
 
 .. centered::
 	*The documentation is largely in development. Expect constant changes.*
 
-`(repository with the full code examples) <https://github.com/assamite/cc-mas-course>`_
+`(repository with the full code examples) <https://github.com/assamite/cc-course-UH17>`_
 
 This documentation holds tips and sample code relevant to 
-`the course <https://www.cs.helsinki.fi/courses/582759/2016/s/k/1>`_. All the
+`the course <https://courses.helsinki.fi/fi/DATA15002/119122268>`_. All the
 code is written with **Python 3.5** in mind. Although many of the snippets work on
 earlier Python versions, we recommend installing Python 3.5 straight away (see
 :doc:`setup`).
