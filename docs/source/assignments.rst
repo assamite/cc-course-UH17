@@ -83,7 +83,7 @@ should be included in the compressed file).
 Remember to return the exercises through Moodle. The exercises should be in
 one compressed file which extracts to a folder with your UH user name. That is,
 if your user name in UH is ``cthulhu`` and you return a file ``cthulhu_w1.tar.gz``, then
-it should extract to, for example, the following structure::
+it should extract, for example, to the following structure::
 
 	cthulhu/
 		ex1.py

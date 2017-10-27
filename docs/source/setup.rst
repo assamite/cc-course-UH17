@@ -10,8 +10,9 @@ We strongly encourage the use of virtual environments (see below).
 Installing Python 3.5.x
 -----------------------
 
-First, start by installing `Python 3.5 <https://www.python.org/downloads/release/python-352/>`_.
-The site offers installers for OSX and Windows. In Linux, follow the standard
+First, start by installing Python >=3.5 from `Python's website <https://www.python.org/downloads/>`_,
+or via apt-get or Homebrew.
+The website offers installers for OSX and Windows. In Linux, follow the standard
 procedure as described in the README:
 
 .. code-block:: console
@@ -40,12 +41,12 @@ Python installation location. Execute the script in the folder where you want
 your virtual environment to be created with the name of the virtual environment
 as the parameter, e.g::
 
-	~$ pyvenv-3.5 venv
+	~$ pyvenv-3.5 env
 
 And the script should do the rest. After the installation, you can enter the
 virtual environment by executing its ``activate``-script::
 
-	~$ source path/to/venv/bin/activate
+	~$ source path/to/env/bin/activate
 
 Now you should be able to enter Python 3.5 interpreter by typing ``python`` no
 matter what base Python you have installed in your computer.
@@ -60,13 +61,13 @@ Installing the Requirements
 
 We have included the packages that are required by the examples and some convenience
 packages in
-`requirements.txt <https://github.com/assamite/cc-mas-course/blob/master/requirements.txt>`_
+`requirements.txt <https://github.com/assamite/cc-course-UH17/blob/master/requirements.txt>`_
 in the github repository. Clone the github repository or download the file, and
 install these packages with `pip <https://pip.pypa.io/en/stable/>`_
 once you have virtual environment active (virtual environment is bundled with
 pip by default so there is no need to manually install it). ::
 
-	~$ source path/to/venv/bin/activate
+	~$ source path/to/env/bin/activate
 	(venv) ~$ pip install -r requirements.txt
 
 .. note::
