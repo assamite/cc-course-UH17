@@ -36,10 +36,11 @@ multiple Python installations with conflicting package version requirements, etc
 to co-exist peacefully on the same machine.
 
 Creating virtual environments in Python 3.5 is easy as it is a built-in feature.
-The script is called ``pyvenv-3.5`` and it is in the ``bin`` folder of the
-Python installation location. Execute the script in the folder where you want
-your virtual environment to be created with the name of the virtual environment
-as the parameter, e.g::
+The script is called ``pyvenv-3.5`` (if it does not work for you, you can also
+try ``virtualenv`` script which has the same functionality) and it is in the
+``bin`` folder of the Python installation location. Execute the script in the
+folder where you want your virtual environment to be created with the name of
+the virtual environment as the parameter, e.g::
 
 	~$ pyvenv-3.5 env
 

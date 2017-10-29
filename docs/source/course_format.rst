@@ -2,15 +2,15 @@ Course Format
 =============
 
 The course in given in two parts. First part consists of lectures, discussion
-sections and individual assignments. Second part is a group project. Course will
+sections and individual assignments. Second part is a small project. Course will
 also have a take home exam which students take towards the end of the course.
 
 First Part - Weekly format
 --------------------------
 
 The first part lasts the first 4-5 weeks of the course. In this part we will have
-three sessions per week (Monday, Wednesday and Friday) and two deadline times
-per week (Tue 23.55 and Sun 23.55). 
+three sessions per week (Monday, Wednesday and Friday) and one deadline (Sun 23.55)
+per week.
 
 The week schedule is as follows.
 On Mondays, we will introduce a new topic in a lecture like session. We
@@ -21,19 +21,9 @@ workshop-like sessions where students can work on their weekly exercises
 (see below). None of the sessions are compulsory, however, you will get course
 points from attending Wednesday's sessions.
 
-Each week we will have two kinds of assignments: A short essay from an article,
-and a set of other assignments. Although the articles are also on the course
-website, all the assignments are published in this documentation. Assignments
-are returned through Moodle (see :doc:`assignments`).
+Each week we will have an article to be read and a set of assignments.
 
-Each week, Students read a short original article and write **a short** essay of
-the article summarizing its main points in **pdf** format. The hard limit for the essay length is
-250 words, however, 150-200 words should be sufficient. Check your word counts!
-Article deadlines are each week on Tuesdays 23.55 (excluding the first week when
-the deadline is on Thursday 23.55), and the article for the next week is
-revealed latest on the previous week's Wednesday.
-
-Other assignments consist of programming, mathematical and other practical work.
+Assignments consist of programming, mathematical and other practical work.
 Their deadline is on Sunday 23.55 every week, and they are revealed latest on
 Monday of the same week. These exercises should be returned as a compressed
 file (zip, tar.gz) that extracts to a folder containing the exercise code
@@ -47,19 +37,18 @@ Following, is the coarse explanation for the weekly schedule:
 	Event			Agenda									Format
 	=============	======================================	============================
 	Mon: Session	Introduce a new topic.					lecture
-	Tue 23.55: DL	Article essay due.						**pdf**, return in Moodle
 	Wed: Session	Deepen the understanding of the topic.	discussion about the article, group work, etc.
 	Fri: Workshop	Work on the exercises for the topic.	workshop
 	Sun 23.55: DL	Other exercises due.					**zip, tar.gz**, return in Moodle
 	=============	======================================	============================
 
 
-Second Part - Group Projects
-----------------------------
+Second Part - Projects
+----------------------
 
 .. note::
 	Exact details of the group project will be revealed later. However, you
-	can assume that a group is 3-4 persons, and a single person is not a group.
+	can assume that a group is 2-3 persons, and a single person is not a group.
 
 The second part consists of group projects and covers the rest of the course.
 In the second part, there is a weekly meeting where the groups present their
@@ -79,7 +68,7 @@ Grading
 
 The course is graded based on deliverables from both parts and doing a take home
 exam towards the end of the course. On the first part, students get course points
-from returned exercises, essays and participation at the discussion sessions
+from returned exercises, and participation at the discussion sessions
 (Wednesdays). On the second part, students get course points from the returned
 group work. The first and second part are weighted so that the full points will give
 30% of the maximum course points from each. The take home exam will give the rest of the 
@@ -95,8 +84,7 @@ Deliverable cheat sheet:
 	========================================	======
 	Deliverable(s)								Weight
 	========================================	======
-	Part 1 - essays	and attending discussion	15%
-	Part 1 - Weekly exercises					15%
+	Part 1 - Weekly exercises					30%
 	Part 2 - Group project						30%
 	Take home exam								40%
 	========================================	======
