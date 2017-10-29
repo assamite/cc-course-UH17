@@ -1,7 +1,7 @@
 Text Generation with First-Order Markov Chain
 ===========================================================
 
-`(full code) <https://github.com/assamite/cc-mas-course/blob/master/week1/toy_markov.py>`_
+`(full code) <https://github.com/assamite/cc-course-UH17/blob/master/week1/toy_markov.py>`_
 
 Markov chain (MC) is a stochastic process that satisfies the Markov property
 (in some terms *memorylessness*). The Markov property means, that one can give

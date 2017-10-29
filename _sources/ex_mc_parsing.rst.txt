@@ -1,8 +1,16 @@
 Week 1 - Markov Chains, Parsing
 ===============================
 
-.. centered::
-	(Tue 1.11. 15.45) The first week's exercises are now in their final form.
+.. note::
+	Document your code! `Sphinx <http://www.sphinx-doc.org>`_ is a good option
+	for documentation in Python projects.  However, it is not compulsory to use
+	it. `A short introduction to Sphinx <https://pythonhosted.org/an_example_pypi_project/sphinx.html>`_.
+
+	This documentation has been created using Sphinx, so you may look at the
+	repository's ``docs/source``-folder for some tips also. However, you do not
+	have to build the documentation when returning the exercises. Making a
+	short, but descriptive, docstring for main functions and classes (and
+	modules) is enough.
 
 |
 
