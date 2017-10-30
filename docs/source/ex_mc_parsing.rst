@@ -81,12 +81,14 @@ Week 1 - Markov Chains, Parsing
 		   transition probabilities. (Most probably raise an exception.)
 
 
-	#. **RETURN** Dan Ventura formulates several "steps" towards more computationally
-	   creative systems in his article 'Mere generation: Essential barometer or
-	   dated concept?'. Shortly, write your opinions in which category your
-	   ``generate`` function from the last exercise falls. Also answer the
-	   question: "How would you make it more creative?". 5-10 sentences should
-	   be enough.
+	#. **RETURN** Dan Ventura gives an introduction to different components
+       a typical creative system entails in his article "How to Build a CC System".
+       Briefly, write your take on which components described in the article are
+       related to the Markov chains and how. Also, give a broad explanation how you
+       could expand your system (Markov chain) with some other components mentioned
+       in the article. For other components, give an overview of the conceptual
+       thinking ("What the component should be doing?") and outline a possible
+       implementation of it ("How you would implement it?").
 
 	#. **RETURN** Create a function ``likelihood(text, state_transitions_probabilities)`` 
 	   that computes the (pseudo)likelihood of the text using the state
