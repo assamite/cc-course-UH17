@@ -89,7 +89,7 @@ Week 1 - Markov Chains, Parsing
    thinking ("What the component should be doing?") and outline a possible
    implementation of it ("How you would implement it?").
 
-#. **RETURN** Create a function ``likelihood(text, state_transitions_probabilities)``
+#. **RETURN** *(Code)* Create a function ``likelihood(text, state_transitions_probabilities)``
    that computes the (pseudo)likelihood of the text using the state
    transition probabilities. If some of the tokens (or state transitions)
    derived from ``text`` are not in ``state_transition_probabilities``,
