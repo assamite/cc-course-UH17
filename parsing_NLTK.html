@@ -24,7 +24,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="4. Multi-Agent Systems" href="mas.html" />
+    <link rel="next" title="4. Assignments" href="assignments.html" />
     <link rel="prev" title="3.1. Text Generation with First-Order Markov Chain" href="toy_markov.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -113,13 +113,13 @@ file.</p>
 </div>
 <div class="section" id="tokenize-the-text">
 <h2>3.2.3. Tokenize the text<a class="headerlink" href="#tokenize-the-text" title="Permalink to this headline">¶</a></h2>
-<p>Our text is now ready to be tokenized with NLTK. First, we are going to split it
+<p>Our text is now ready to be tokenized with NLTK. First, we split the text
 into sentences, which is easy with the tools NLTK offers:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sentences</span> <span class="o">=</span> <span class="n">nltk</span><span class="o">.</span><span class="n">sent_tokenize</span><span class="p">(</span><span class="n">alice</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Next, we are going to tokenize each sentence using <code class="docutils literal"><span class="pre">nltk.word_tokenize</span></code>, which
-splits the text into ‘words’ (it also splits punctuation into separate tokens).
+<p>Next, we tokenize each sentence using <code class="docutils literal"><span class="pre">nltk.word_tokenize</span></code>, which
+splits the sentence into ‘words’ (it also splits punctuation into separate tokens).
 Here is an example of its output:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">nltk</span><span class="o">.</span><span class="n">word_tokenize</span><span class="p">(</span><span class="s1">&#39;Follow the &quot;White Rabbit&quot;.&#39;</span><span class="p">)</span>
 <span class="go">[&#39;Follow&#39;, &#39;the&#39;, &#39;``&#39;, &#39;White&#39;, &#39;Rabbit&#39;, &quot;&#39;&#39;&quot;, &#39;.&#39;]</span>
@@ -203,9 +203,8 @@ actual generation of texts.</p>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="mas.html">4. Social Creativity and Interaction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="assignments.html">5. Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="zz_references.html">6. References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="assignments.html">4. Assignments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="zz_references.html">5. References</a></li>
 </ul>
 
 <div class="relations">
@@ -214,7 +213,7 @@ actual generation of texts.</p>
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="linguistic_creativity.html">3. 2. Linguistic Creativity</a><ul>
       <li>Previous: <a href="toy_markov.html" title="previous chapter">3.1. Text Generation with First-Order Markov Chain</a></li>
-      <li>Next: <a href="mas.html" title="next chapter">4. Multi-Agent Systems</a></li>
+      <li>Next: <a href="assignments.html" title="next chapter">4. Assignments</a></li>
   </ul></li>
   </ul></li>
 </ul>

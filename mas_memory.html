@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>4.2. Agents With Memory and Learning From Domain &#8212; CC-Course-UH 2017 0.1a documentation</title>
+    <title>Agents With Memory and Learning From Domain &#8212; CC-Course-UH 2017 0.1a documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -24,8 +24,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="5. Assignments" href="assignments.html" />
-    <link rel="prev" title="4.1. Toy Example of MAS with Creamas" href="toy_mas.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -42,7 +40,7 @@
           <div class="body" role="main">
             
   <div class="section" id="agents-with-memory-and-learning-from-domain">
-<h1>4.2. Agents With Memory and Learning From Domain<a class="headerlink" href="#agents-with-memory-and-learning-from-domain" title="Permalink to this headline">¶</a></h1>
+<h1>Agents With Memory and Learning From Domain<a class="headerlink" href="#agents-with-memory-and-learning-from-domain" title="Permalink to this headline">¶</a></h1>
 <p><a class="reference external" href="https://github.com/assamite/cc-mas-course/blob/master/week3/mas_memory.py">(full code)</a></p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
@@ -59,7 +57,7 @@ would have the full knowledge of what the whole society has created before).</p>
 <p>In this example, we will use the memory model to directly assess the novelty of
 artifacts. However, it could also be used in other ways.</p>
 <div class="section" id="memory-model">
-<h2>4.2.1. Memory Model<a class="headerlink" href="#memory-model" title="Permalink to this headline">¶</a></h2>
+<h2>Memory Model<a class="headerlink" href="#memory-model" title="Permalink to this headline">¶</a></h2>
 <p>Our memory model will be a simple list which we will wrap as a class to get
 a clean API for it (and which would allow us to switch memory models
 easily if other models would use the same API). For our memory model, we
@@ -145,7 +143,7 @@ but this will do for the sake of the example.)</p>
 </div>
 </div>
 <div class="section" id="add-listmemory-to-toyagent">
-<h2>4.2.2. Add <code class="xref py py-class docutils literal"><span class="pre">ListMemory</span></code> to <code class="xref py py-class docutils literal"><span class="pre">ToyAgent</span></code><a class="headerlink" href="#add-listmemory-to-toyagent" title="Permalink to this headline">¶</a></h2>
+<h2>Add <code class="xref py py-class docutils literal"><span class="pre">ListMemory</span></code> to <code class="xref py py-class docutils literal"><span class="pre">ToyAgent</span></code><a class="headerlink" href="#add-listmemory-to-toyagent" title="Permalink to this headline">¶</a></h2>
 <p>Next, we will fit the memory model into our <code class="xref py py-class docutils literal"><span class="pre">ToyAgent</span></code> class from last
 week and use it to assess the novelty of a new artifact. To this end we will:</p>
 <blockquote>
@@ -165,7 +163,7 @@ the last week and changing the appropriate parts, but we will not do
 it in this example for the sake of modularity.</p>
 </div>
 <div class="section" id="change-init">
-<h3>4.2.2.1. Change <code class="xref py py-func docutils literal"><span class="pre">__init__()</span></code><a class="headerlink" href="#change-init" title="Permalink to this headline">¶</a></h3>
+<h3>Change <code class="xref py py-func docutils literal"><span class="pre">__init__()</span></code><a class="headerlink" href="#change-init" title="Permalink to this headline">¶</a></h3>
 <p>We change <code class="xref py py-func docutils literal"><span class="pre">__init__()</span></code> to also create the memory for the agent. This is done
 simply by adding the following line in it:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="bp">self</span><span class="o">.</span><span class="n">mem</span> <span class="o">=</span> <span class="n">ListMemory</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
@@ -173,7 +171,7 @@ simply by adding the following line in it:</p>
 </div>
 </div>
 <div class="section" id="rename-evaluate-to-value">
-<h3>4.2.2.2. Rename <code class="xref py py-func docutils literal"><span class="pre">evaluate()</span></code> to <code class="xref py py-func docutils literal"><span class="pre">value()</span></code><a class="headerlink" href="#rename-evaluate-to-value" title="Permalink to this headline">¶</a></h3>
+<h3>Rename <code class="xref py py-func docutils literal"><span class="pre">evaluate()</span></code> to <code class="xref py py-func docutils literal"><span class="pre">value()</span></code><a class="headerlink" href="#rename-evaluate-to-value" title="Permalink to this headline">¶</a></h3>
 <p>As <code class="xref py py-func docutils literal"><span class="pre">evaluate()</span></code> is a reserved function in Creamas which some of the other
 library functionality calls inherently (e.g. <code class="xref py py-func docutils literal"><span class="pre">CreativeAgent.vote()</span></code>), we need to keep it as the highest level
 evaluation function. As we will introduce a new evaluation function <code class="xref py py-func docutils literal"><span class="pre">novelty()</span></code>,
@@ -182,7 +180,7 @@ end we simply rename our old <code class="xref py py-func docutils literal"><spa
 it is the function that evaluates how valuable each artifact is.</p>
 </div>
 <div class="section" id="implement-a-new-function-novelty">
-<h3>4.2.2.3. Implement a New Function <code class="xref py py-func docutils literal"><span class="pre">novelty()</span></code><a class="headerlink" href="#implement-a-new-function-novelty" title="Permalink to this headline">¶</a></h3>
+<h3>Implement a New Function <code class="xref py py-func docutils literal"><span class="pre">novelty()</span></code><a class="headerlink" href="#implement-a-new-function-novelty" title="Permalink to this headline">¶</a></h3>
 <p>Next, we will implement a new function <code class="xref py py-func docutils literal"><span class="pre">novelty()</span></code>. It is very similar to <code class="xref py py-func docutils literal"><span class="pre">value()</span></code>
 function, but it compares the new artifact to the artifacts in the memory, not
 in the vocabulary, and it computes the novelty of an artifact to be the <strong>minimum</strong>
@@ -236,7 +234,7 @@ word giving the minimum novelty.</td>
 </div>
 </div>
 <div class="section" id="re-implement-evaluate">
-<h3>4.2.2.4. Re-Implement <code class="xref py py-func docutils literal"><span class="pre">evaluate()</span></code><a class="headerlink" href="#re-implement-evaluate" title="Permalink to this headline">¶</a></h3>
+<h3>Re-Implement <code class="xref py py-func docutils literal"><span class="pre">evaluate()</span></code><a class="headerlink" href="#re-implement-evaluate" title="Permalink to this headline">¶</a></h3>
 <p>Our new <code class="xref py py-func docutils literal"><span class="pre">evaluate()</span></code> will take both <code class="xref py py-func docutils literal"><span class="pre">value()</span></code> (the renamed
 <code class="xref py py-func docutils literal"><span class="pre">evaluate()</span></code> from the last week) and <code class="xref py py-func docutils literal"><span class="pre">novelty()</span></code> into consideration:</p>
 <dl class="method">
@@ -273,7 +271,7 @@ both the value and novelty.</td>
 </div>
 </div>
 <div class="section" id="modify-invent">
-<h3>4.2.2.5. Modify <code class="xref py py-meth docutils literal"><span class="pre">invent()</span></code><a class="headerlink" href="#modify-invent" title="Permalink to this headline">¶</a></h3>
+<h3>Modify <code class="xref py py-meth docutils literal"><span class="pre">invent()</span></code><a class="headerlink" href="#modify-invent" title="Permalink to this headline">¶</a></h3>
 <p>We modify <code class="xref py py-func docutils literal"><span class="pre">invent()</span></code> by explicitly renaming the framing returned by
 <code class="xref py py-meth docutils literal"><span class="pre">evaluate()</span></code> (the second element in the returned tuple) as <code class="docutils literal"><span class="pre">framing</span></code>.</p>
 <p>Here is the new code:</p>
@@ -297,7 +295,7 @@ both the value and novelty.</td>
 </div>
 </div>
 <div class="section" id="memorize-artifacts">
-<h3>4.2.2.6. Memorize Artifacts<a class="headerlink" href="#memorize-artifacts" title="Permalink to this headline">¶</a></h3>
+<h3>Memorize Artifacts<a class="headerlink" href="#memorize-artifacts" title="Permalink to this headline">¶</a></h3>
 <p>Now, we have our memory model fitted into our agent, but we do not yet memorize
 any artifacts. To this end, we will first memorize all the artifacts the agent
 itself invents by modifying <code class="xref py py-meth docutils literal"><span class="pre">act()</span></code>:</p>
@@ -312,7 +310,7 @@ itself invents by modifying <code class="xref py py-meth docutils literal"><span
 </div>
 </div>
 <div class="section" id="memorization-from-domain">
-<h2>4.2.3. Memorization from Domain<a class="headerlink" href="#memorization-from-domain" title="Permalink to this headline">¶</a></h2>
+<h2>Memorization from Domain<a class="headerlink" href="#memorization-from-domain" title="Permalink to this headline">¶</a></h2>
 <p>Until now, the agents have only memorized their own artifacts. To make our agent
 society really intertwined, we want the agents to memorize (part of the) artifacts generated
 by other agents. To this end we will gather a domain of former vote winners in the
@@ -320,7 +318,7 @@ environment, and let the agents memorize a random artifact from the domain on
 each <code class="xref py py-meth docutils literal"><span class="pre">act()</span></code>. This is again very simple method, but will do for the sake of
 the example</p>
 <div class="section" id="populating-the-domain">
-<h3>4.2.3.1. Populating the Domain<a class="headerlink" href="#populating-the-domain" title="Permalink to this headline">¶</a></h3>
+<h3>Populating the Domain<a class="headerlink" href="#populating-the-domain" title="Permalink to this headline">¶</a></h3>
 <p>Populating the domain is easy in Creamas as the environment already has some
 suitable methods for it. We will just add the votes winner(s) after each vote
 to the domain. As we already call <code class="xref py py-func docutils literal"><span class="pre">ToyEnvironment.vote()</span></code> after every iteration,
@@ -340,7 +338,7 @@ we will modify it.</p>
 </div>
 </div>
 <div class="section" id="memorizing-the-domain-artifacts">
-<h3>4.2.3.2. Memorizing the Domain Artifacts<a class="headerlink" href="#memorizing-the-domain-artifacts" title="Permalink to this headline">¶</a></h3>
+<h3>Memorizing the Domain Artifacts<a class="headerlink" href="#memorizing-the-domain-artifacts" title="Permalink to this headline">¶</a></h3>
 <p>Each agent will memorize one random domain artifact on during each <code class="xref py py-func docutils literal"><span class="pre">act()</span></code>.
 For this, we will add two lines at the start of the <code class="xref py py-func docutils literal"><span class="pre">act()</span></code>:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">artifacts</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
@@ -362,7 +360,7 @@ for this iteration.</p>
 </div>
 </div>
 <div class="section" id="running-the-simulation">
-<h2>4.2.4. Running the Simulation<a class="headerlink" href="#running-the-simulation" title="Permalink to this headline">¶</a></h2>
+<h2>Running the Simulation<a class="headerlink" href="#running-the-simulation" title="Permalink to this headline">¶</a></h2>
 <p>Running the simulation happens exactly like in the last week’s example.
 In short:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
@@ -395,33 +393,18 @@ In short:</p>
 
 
 <h3>Navigation</h3>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="preliminaries.html">1. Preliminaries</a></li>
 <li class="toctree-l1"><a class="reference internal" href="course_format.html">2. Course Format</a></li>
 <li class="toctree-l1"><a class="reference internal" href="linguistic_creativity.html">3. Linguistic Creativity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="mas.html">4. Social Creativity and Interaction</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="toy_mas.html">4.1. Toy Example of MAS</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">4.2. Agents with Memory</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#memory-model">4.2.1. Memory Model</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#add-listmemory-to-toyagent">4.2.2. Add <code class="docutils literal"><span class="pre">ListMemory</span></code> to <code class="docutils literal"><span class="pre">ToyAgent</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#memorization-from-domain">4.2.3. Memorization from Domain</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#running-the-simulation">4.2.4. Running the Simulation</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="assignments.html">5. Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="zz_references.html">6. References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="assignments.html">4. Assignments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="zz_references.html">5. References</a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-  <li><a href="mas.html">4. Multi-Agent Systems</a><ul>
-      <li>Previous: <a href="toy_mas.html" title="previous chapter">4.1. Toy Example of MAS with Creamas</a></li>
-      <li>Next: <a href="assignments.html" title="next chapter">5. Assignments</a></li>
-  </ul></li>
   </ul></li>
 </ul>
 </div>

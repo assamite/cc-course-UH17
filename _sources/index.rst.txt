@@ -25,7 +25,6 @@ earlier Python versions, we recommend installing Python 3.5 straight away (see
 	Preliminaries <preliminaries>
 	Course Format <course_format>
 	Linguistic Creativity <linguistic_creativity>
-	Social Creativity and Interaction <mas>
 	Assignments <assignments>
 	References <zz_references>
 
