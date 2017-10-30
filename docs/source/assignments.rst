@@ -38,6 +38,9 @@ to the week's topic.
        The Eighth International Conference on Computational Creativity (ICCC),
        253-260. Atlanta, GA, June 2017.
 
+       `Anna Jourdanous: Four PPPPerspectives on computational creativity in theory and in practice. <http://dx.doi.org/10.1080/09540091.2016.1151860>`_
+       Connection Science 28: 194-216, 2016.
+
        (`Dan Ventura - Mere generation: Essential barometer or dated concept? <http://www.computationalcreativity.net/iccc2016/wp-content/uploads/2016/01/Mere-Generation.pdf>`_
        The Seventh International Conference on Computational Creativity (ICCC),
        17-24. Paris, France, June 2016.)
