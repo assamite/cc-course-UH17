@@ -75,13 +75,13 @@ Now, we have the raw version of the book. Next, we are going to remove the
 Tokenize the text
 -----------------
 
-Our text is now ready to be tokenized with NLTK. First, we are going to split it
+Our text is now ready to be tokenized with NLTK. First, we split the text
 into sentences, which is easy with the tools NLTK offers::
 
 	sentences = nltk.sent_tokenize(alice)
 
-Next, we are going to tokenize each sentence using ``nltk.word_tokenize``, which
-splits the text into 'words' (it also splits punctuation into separate tokens).
+Next, we tokenize each sentence using ``nltk.word_tokenize``, which
+splits the sentence into 'words' (it also splits punctuation into separate tokens).
 Here is an example of its output::
 
 	>>> nltk.word_tokenize('Follow the "White Rabbit".')
