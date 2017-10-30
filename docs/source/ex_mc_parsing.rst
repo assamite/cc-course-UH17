@@ -13,7 +13,7 @@ Week 1 - Markov Chains, Parsing
 	modules) is enough.
 
 
-#. **RETURN** Familiarize yourself with `Markov chains
+#. **RETURN** *(Text)* Familiarize yourself with `Markov chains
    <https://en.wikipedia.org/wiki/Markov_chain>`_, and how they can be
    created from the data. See :doc:`toy_markov` for an example of how to
    create Markov chain from a set of toy data.
@@ -50,7 +50,7 @@ Week 1 - Markov Chains, Parsing
    into tokens and then computes the state transition probabilities from
    the tokenized sentences.
 
-#. **RETURN** Create a function ``sanitize(token_list)``, which takes as an argument
+#. **RETURN** *(Code)* Create a function ``sanitize(token_list)``, which takes as an argument
    a list of text tokens and sanitizes the list by removing inappropriate
    tokens. Use different sanitization method than in the example, and try to
    make it more "intelligent". Justify your choices and state them clearly
@@ -61,7 +61,7 @@ Week 1 - Markov Chains, Parsing
    tokenized sentence is sanitized (with your ``sanitize``-function) before
    the state transition probabilities are computed.
 
-#. **RETURN** Create a function ``generate(state_transition_probabilities, length=10, start=None)``,
+#. **RETURN** *(Code)* Create a function ``generate(state_transition_probabilities, length=10, start=None)``,
    which returns a piece of text generated from given state transition
    probabilities. Specification:
 
@@ -80,7 +80,7 @@ Week 1 - Markov Chains, Parsing
        transition probabilities. (Most probably raise an exception.)
 
 
-#. **RETURN** Dan Ventura gives an introduction to different components
+#. **RETURN** *(Text)* Dan Ventura gives an introduction to different components
    a typical creative system entails in his article "How to Build a CC System".
    Briefly, write your take on which components described in the article are
    related to the Markov chains and how. Also, give a broad explanation how you

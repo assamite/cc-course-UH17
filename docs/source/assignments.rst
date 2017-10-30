@@ -42,7 +42,7 @@ to the week's topic.
        The Seventh International Conference on Computational Creativity (ICCC),
        17-24. Paris, France, June 2016.)
 
-    #. | Figurative language:
+..  #. | Figurative language:
 
        `Tony Veale: Creative Language Retrieval: A Robust Hybrid of Information Retrieval and Linguistic Creativity. <http://afflatus.ucd.ie/Papers/Creative%20Retrieval%20ACL%202011.pdf>`_
        In Proceedings of the ACL’2011, the 49th Annual Meeting of the Association for Computational Linguistics:
@@ -109,9 +109,9 @@ Weekly programming and theoretical exercise deadlines are on Sundays at 23.55
 every week. The exercises marked with **RETURN** at the start,
 will be the ones that accumulate your course points in Part 1.
 
-Assignments that are marked as *(Code)* should be included into one compressed
-file at each week (see below). Assignment that are marked as *(Text)* have
-a separate 
+Exercises that are marked as *(Code)* should be included into one compressed
+file at each week (see below). Exercises that are marked as *(Text)* have
+a separate Moodle assignment for them.
 
 **Weekly Exercises:**
 

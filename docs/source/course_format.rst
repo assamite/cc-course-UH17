@@ -37,14 +37,14 @@ The *written* assignments are returned separately through Moodle.
 
 Following, is the coarse explanation for the weekly schedule:
 
-	=============	======================================	============================
-	Event			Agenda									Format
-	=============	======================================	============================
-	Mon: Session	Introduce a new topic.					lecture
-	Wed: Session	Deepen the understanding of the topic.	discussion about the article, group work, etc.
-	Fri: Workshop	Work on the exercises for the topic.	workshop
-	Sun 23.55: DL	Exercises due.      					**zip, tar.gz**, return in Moodle
-	=============	======================================	============================
+=============	======================================	============================
+Event			Agenda									Format
+=============	======================================	============================
+Mon: Session	Introduce a new topic.					lecture
+Wed: Session	Deepen the understanding of the topic.	lecture, discussion about the article, group work, etc.
+Fri: Workshop	Work on the exercises for the topic.	workshop
+Sun 23.55: DL	Exercises due.      					**zip, tar.gz**, return in Moodle
+=============	======================================	============================
 
 
 Second Part - Projects
@@ -85,12 +85,12 @@ the actual weight of the project will be higher.
 
 Deliverable cheat sheet:
 
-	========================================	======
-	Deliverable(s)								Weight
-	========================================	======
-    Part 1 - Attendance                         10%
-	Part 1 - Weekly assignments					20%
-	Part 2 - Group project						30%
-	Take home exam								40%
-	========================================	======
+========================================    ======
+Deliverable(s)				                Weight
+========================================    ======
+Part 1 - Attendance                         10%
+Part 1 - Weekly assignments	                20%
+Part 2 - Group project                      30%
+Take home exam                              40%
+========================================    ======
 
