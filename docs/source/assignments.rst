@@ -42,10 +42,11 @@ to the week's topic.
        The Seventh International Conference on Computational Creativity (ICCC),
        17-24. Paris, France, June 2016.)
 
-    #. | Creative autonomy:
+    #. | Figurative language:
 
-       `K.E. Jennings: Developing creativity: Artificial barriers in artificial intelligence. <http://link.springer.com/content/pdf/10.1007%2Fs11023-010-9206-y.pdf>`_
-       Minds and Machines 20(4): 489-501, 2011 (the first four pages).
+       `Tony Veale: Creative Language Retrieval: A Robust Hybrid of Information Retrieval and Linguistic Creativity. <http://afflatus.ucd.ie/Papers/Creative%20Retrieval%20ACL%202011.pdf>`_
+       In Proceedings of the ACL’2011, the 49th Annual Meeting of the Association for Computational Linguistics:
+       Human Language Technologies, 278-287, Portland, Oregon, USA, June 2011.
 
     #. | Creativity as search:
 
@@ -58,12 +59,6 @@ to the week's topic.
        Aspects of Self-awareness: An Anatomy of Metacreative Systems. <http://computationalcreativity.net/iccc2017/ICCC_17_accepted_submissions/ICCC-17_paper_25.pdf>`_
        The Eighth International Conference on Computational Creativity (ICCC),
        189-196. Atlanta, GA, June 2017.
-
-    #. | Figurative language:
-
-       `Tony Veale: Creative Language Retrieval: A Robust Hybrid of Information Retrieval and Linguistic Creativity. <http://afflatus.ucd.ie/Papers/Creative%20Retrieval%20ACL%202011.pdf>`_
-       In Proceedings of the ACL’2011, the 49th Annual Meeting of the Association for Computational Linguistics:
-       Human Language Technologies, 278-287, Portland, Oregon, USA, June 2011.
 
     #. | Evaluation of creative processes, the FACE model:
 
@@ -112,8 +107,11 @@ Exercises
 
 Weekly programming and theoretical exercise deadlines are on Sundays at 23.55
 every week. The exercises marked with **RETURN** at the start,
-will be the ones that accumulate your course points in Part 1 (and therefore
-should be included in the compressed file).
+will be the ones that accumulate your course points in Part 1.
+
+Assignments that are marked as *(Code)* should be included into one compressed
+file at each week (see below). Assignment that are marked as *(Text)* have
+a separate 
 
 **Weekly Exercises:**
 
@@ -123,7 +121,7 @@ should be included in the compressed file).
 	#. :doc:`ex_mc_mas`
 	#. :doc:`ex_mas_memory`
 
-Remember to return the exercises through Moodle. The exercises should be in
+Remember to return the exercises through Moodle. The coding exercises should be in
 one compressed file which extracts to a folder with your UH user name. That is,
 if your user name in UH is ``cthulhu`` and you return a file ``cthulhu_w1.tar.gz``, then
 it should extract, for example, to the following structure::
