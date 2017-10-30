@@ -6,8 +6,8 @@ to be added elsewhere.
 
 .. warning:: 
 	All assignments are returned through
-	`Moodle <https://moodle.helsinki.fi/course/view.php?id=22439>`_
-	(course key: cc2017). Do **not** send them by email!
+	`Moodle <https://moodle.helsinki.fi/course/view.php?id=26691>`_
+ 	(course key: cc2017). Do **not** send them by email!
 
 **Preliminaries:**
 
@@ -44,7 +44,7 @@ to the week's topic.
 
     #. | Creative autonomy:
 
-       K.E. Jennings: Developing creativity: Artificial barriers in artificial intelligence.
+       `K.E. Jennings: Developing creativity: Artificial barriers in artificial intelligence. <http://link.springer.com/content/pdf/10.1007%2Fs11023-010-9206-y.pdf>`_
        Minds and Machines 20(4): 489-501, 2011 (the first four pages).
 
     #. | Creativity as search:
@@ -61,16 +61,16 @@ to the week's topic.
 
     #. | Figurative language:
 
-       Tony Veale: Creative Language Retrieval: A Robust Hybrid of Information Retrieval and Linguistic Creativity.
+       `Tony Veale: Creative Language Retrieval: A Robust Hybrid of Information Retrieval and Linguistic Creativity. <http://afflatus.ucd.ie/Papers/Creative%20Retrieval%20ACL%202011.pdf>`_
        In Proceedings of the ACL’2011, the 49th Annual Meeting of the Association for Computational Linguistics:
        Human Language Technologies, 278-287, Portland, Oregon, USA, June 2011.
 
     #. | Evaluation of creative processes, the FACE model:
 
-       Anna Jourdanous: Four PPPPerspectives on computational creativity in theory and in practice.
+       `Anna Jourdanous: Four PPPPerspectives on computational creativity in theory and in practice. <http://dx.doi.org/10.1080/09540091.2016.1151860>`_
        Connection Science 28: 194-216, 2016.
 
-       (Alison Pease and Simon Colton: Computational creativity theory: Inspirations behind the FACE and the IDEA models.
+       (`Alison Pease and Simon Colton: Computational creativity theory: Inspirations behind the FACE and the IDEA models. <http://computationalcreativity.net/iccc2011/proceedings/the_cybernetic/pease_iccc11.pdf>`_
        2nd International Conference on Computational Creativity (ICCC),
        72-77, México City, 2011.)
 

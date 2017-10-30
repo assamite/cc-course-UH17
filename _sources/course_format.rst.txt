@@ -39,7 +39,7 @@ Following, is the coarse explanation for the weekly schedule:
 	Mon: Session	Introduce a new topic.					lecture
 	Wed: Session	Deepen the understanding of the topic.	discussion about the article, group work, etc.
 	Fri: Workshop	Work on the exercises for the topic.	workshop
-	Sun 23.55: DL	Other exercises due.					**zip, tar.gz**, return in Moodle
+	Sun 23.55: DL	Exercises due.      					**zip, tar.gz**, return in Moodle
 	=============	======================================	============================
 
 
