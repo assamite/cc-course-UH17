@@ -113,8 +113,8 @@ to use it for now, but it is as simple as tokenization::
 	and download the Averaged Perceptron Tagger from Models-section. In general,
 	the download tool offers many usable models and corporas.
 
-Sanitation of the Tokenized Sentences
--------------------------------------
+Sanitization of the Tokenized Sentences
+---------------------------------------
 
 Lastly, we sanitize the tokenized sentences a bit so that the punctuation does
 not clutter the Markov chains. For this purpose, we naively assume that any
