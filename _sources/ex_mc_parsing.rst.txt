@@ -79,15 +79,14 @@ Week 1 - Markov Chains, Parsing
     #. Handle the case where the state given by ``start`` is not in the
        transition probabilities. (Most probably raise an exception.)
 
+#. **RETURN** *(Text)* Assume you have a text generation system based on straightforward
+   use of Markov chains, i.e., the system trains a Markov chain from given input
+   text and then generates new text according to it. Consider now the following
+   questions for each of the four perspectives on creativity (by Jordanous):
 
-#. **RETURN** *(Text)* Dan Ventura gives an introduction to different components
-   a typical creative system entails in his article "How to Build a CC System".
-   Briefly, write your take on which components described in the article are
-   related to the Markov chains and how. Also, give a broad explanation how you
-   could expand your system (Markov chain) with some other components mentioned
-   in the article. For other components, give an overview of the conceptual
-   thinking ("What the component should be doing?") and outline a possible
-   implementation of it ("How you would implement it?").
+        * How does the perspective apply to this system?
+        * How could the system be expanded (with additional modules/resources/functionality)
+          to make it more creative with respect to the perspective?
 
 #. **RETURN** *(Code)* Create a function ``likelihood(text, state_transitions_probabilities)``
    that computes the (pseudo)likelihood of the text using the state
