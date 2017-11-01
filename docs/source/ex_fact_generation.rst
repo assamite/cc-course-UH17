@@ -1,4 +1,4 @@
-Week 2 - Fictional Fact Generation
+Week 3 - Fictional Fact Generation
 ==================================
 
 .. note::
@@ -103,25 +103,7 @@ Exercises
    **You do not have to implement the methods!** By all means, do if you want and I'd love to see the result, but
    it's not required!
 
-#. **RETURN** *(Code)* Return to your code from last week's exercises, where you trained a Markov model
-   on the text of *Alice's Adventures in Wonderland*.
-
-   Alter your function ``markov_chain`` to accept an optional parameter ``order`` which
-   specifies the order of the Markov chain to be created.
-
-   That is, with ``order=2`` a state contains two successive tokens from the same sentence.
-
-#. **RETURN** *(Code)* Create a new version of your function ``generate``,
-   ``generate2(probs1, probs2, length=10, start=None)``. ``probs1`` and ``probs2`` are now expected to be the
-   state transition distributions for an order-1 and an order-2 Markov model, respectively.
-
-   This function should generate from the Markov model as before, except that, if it encounters a context
-   of two words that does not exist in the order-2 model's distribution, it uses the order-1 model instead,
-   treating just the single latest word as context.
-
-   This is a form of a commonly used technique when working with Markov models, known as *backoff*.
-
-#. **RETURN** *(Output)*
+#. **RETURN** *(Text output)*
    `Download this text file <https://www.cs.helsinki.fi/u/magranro/cc2017/alice_with_triples.txt>`_
    and use it to train a new Markov model on this text, performing all the same preprocessing as you did before.
    It contains the full text of *Alice's Adventures in Wonderland*, plus text covering all of the words used
@@ -137,3 +119,6 @@ Exercises
    You have now combined two generative methods in order to get an initial (sometimes) interesting seed from
    one and continue the story with another. These components could, of course, be combined with many other
    components to generate, modify, filter, expand, etc.
+
+   Submit some examples of the output produced by your combined system, together with a brief analysis of
+   what the system produced, its limitations and how they might be addressed. (A couple of sentences.)
