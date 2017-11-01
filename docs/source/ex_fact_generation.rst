@@ -1,6 +1,9 @@
 Week 2 - Fictional Fact Generation
 ==================================
 
+.. note::
+    1.11.17 These assignments are still subject to change.
+
 Introduction
 ------------
 
