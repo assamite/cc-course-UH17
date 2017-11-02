@@ -1,7 +1,8 @@
 Week 2 - Metaphor generation
 ============================
 
-TODO: Khalid, add introductory text
+.. note::
+    2.11.17 These assignments are still under development!
 
 Exercises
 ---------
@@ -24,5 +25,3 @@ Exercises
 
    This is a form of a commonly used technique when working with Markov models, known as *backoff*.
 
-
-TODO: Khalid's exercises to be added
