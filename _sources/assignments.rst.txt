@@ -119,6 +119,7 @@ a separate Moodle assignment for them.
 **Weekly Exercises:**
 
     #. :doc:`ex_mc_parsing`
+    #. :doc:`ex_metaphor`
     #. :doc:`ex_fact_generation`
 
 ..

@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Week 2 - Fictional Fact Generation &#8212; CC-Course-UH 2017 0.1a documentation</title>
+    <title>Week 3 - Fictional Fact Generation &#8212; CC-Course-UH 2017 0.1a documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -39,8 +39,8 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="week-2-fictional-fact-generation">
-<h1>Week 2 - Fictional Fact Generation<a class="headerlink" href="#week-2-fictional-fact-generation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="week-3-fictional-fact-generation">
+<h1>Week 3 - Fictional Fact Generation<a class="headerlink" href="#week-3-fictional-fact-generation" title="Permalink to this headline">¶</a></h1>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">1.11.17 These assignments are still subject to change.</p>
@@ -132,21 +132,7 @@ If we were able to do reliable commonsense reasoning with broad-domain world kno
 <p><strong>You do not have to implement the methods!</strong> By all means, do if you want and I’d love to see the result, but
 it’s not required!</p>
 </li>
-<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Return to your code from last week’s exercises, where you trained a Markov model
-on the text of <em>Alice’s Adventures in Wonderland</em>.</p>
-<p>Alter your function <code class="docutils literal"><span class="pre">markov_chain</span></code> to accept an optional parameter <code class="docutils literal"><span class="pre">order</span></code> which
-specifies the order of the Markov chain to be created.</p>
-<p>That is, with <code class="docutils literal"><span class="pre">order=2</span></code> a state contains two successive tokens from the same sentence.</p>
-</li>
-<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Create a new version of your function <code class="docutils literal"><span class="pre">generate</span></code>,
-<code class="docutils literal"><span class="pre">generate2(probs1,</span> <span class="pre">probs2,</span> <span class="pre">length=10,</span> <span class="pre">start=None)</span></code>. <code class="docutils literal"><span class="pre">probs1</span></code> and <code class="docutils literal"><span class="pre">probs2</span></code> are now expected to be the
-state transition distributions for an order-1 and an order-2 Markov model, respectively.</p>
-<p>This function should generate from the Markov model as before, except that, if it encounters a context
-of two words that does not exist in the order-2 model’s distribution, it uses the order-1 model instead,
-treating just the single latest word as context.</p>
-<p>This is a form of a commonly used technique when working with Markov models, known as <em>backoff</em>.</p>
-</li>
-<li><p class="first"><strong>RETURN</strong> <em>(Output)</em>
+<li><p class="first"><strong>RETURN</strong> <em>(Text output)</em>
 <a class="reference external" href="https://www.cs.helsinki.fi/u/magranro/cc2017/alice_with_triples.txt">Download this text file</a>
 and use it to train a new Markov model on this text, performing all the same preprocessing as you did before.
 It contains the full text of <em>Alice’s Adventures in Wonderland</em>, plus text covering all of the words used
@@ -159,6 +145,8 @@ last two words of <code class="docutils literal"><span class="pre">s</span></cod
 <p>You have now combined two generative methods in order to get an initial (sometimes) interesting seed from
 one and continue the story with another. These components could, of course, be combined with many other
 components to generate, modify, filter, expand, etc.</p>
+<p>Submit some examples of the output produced by your combined system, together with a brief analysis of
+what the system produced, its limitations and how they might be addressed. (A couple of sentences.)</p>
 </li>
 </ol>
 </div>

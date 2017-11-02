@@ -1,0 +1,130 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Week 2 - Metaphor generation &#8212; CC-Course-UH 2017 0.1a documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1a',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="week-2-metaphor-generation">
+<h1>Week 2 - Metaphor generation<a class="headerlink" href="#week-2-metaphor-generation" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">2.11.17 These assignments are still under development!</p>
+</div>
+<div class="section" id="exercises">
+<h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Return to your code from last week’s exercises, where you trained a Markov model
+on the text of <em>Alice’s Adventures in Wonderland</em>.</p>
+<p>Alter your function <code class="docutils literal"><span class="pre">markov_chain</span></code> to accept an optional parameter <code class="docutils literal"><span class="pre">order</span></code> which
+specifies the order of the Markov chain to be created.</p>
+<p>That is, with <code class="docutils literal"><span class="pre">order=2</span></code> a state contains two successive tokens from the same sentence.</p>
+</li>
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Create a new version of your function <code class="docutils literal"><span class="pre">generate</span></code>,
+<code class="docutils literal"><span class="pre">generate2(probs1,</span> <span class="pre">probs2,</span> <span class="pre">length=10,</span> <span class="pre">start=None)</span></code>. <code class="docutils literal"><span class="pre">probs1</span></code> and <code class="docutils literal"><span class="pre">probs2</span></code> are now expected to be the
+state transition distributions for an order-1 and an order-2 Markov model, respectively.</p>
+<p>This function should generate from the Markov model as before, except that, if it encounters a context
+of two words that does not exist in the order-2 model’s distribution, it uses the order-1 model instead,
+treating just the single latest word as context.</p>
+<p>This is a form of a commonly used technique when working with Markov models, known as <em>backoff</em>.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">CC-Course-UH 2017</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="preliminaries.html">1. Preliminaries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="course_format.html">2. Course Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linguistic_creativity.html">3. Linguistic Creativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="assignments.html">4. Assignments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="zz_references.html">5. References</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Simo Linkola.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/ex_metaphor.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
