@@ -34,29 +34,34 @@ to the week's topic.
 
     #. | Introduction:
 
-       `Dan Ventura - How to Build a CC System <http://computationalcreativity.net/iccc2017/ICCC_17_accepted_submissions/ICCC-17_paper_20.pdf>`_
+       `Dan Ventura: How to Build a CC System <http://computationalcreativity.net/iccc2017/ICCC_17_accepted_submissions/ICCC-17_paper_20.pdf>`_
        The Eighth International Conference on Computational Creativity (ICCC),
        253-260. Atlanta, GA, June 2017.
 
        `Anna Jourdanous: Four PPPPerspectives on computational creativity in theory and in practice. <http://dx.doi.org/10.1080/09540091.2016.1151860>`_
        Connection Science 28: 194-216, 2016.
 
-       (`Dan Ventura - Mere generation: Essential barometer or dated concept? <http://www.computationalcreativity.net/iccc2016/wp-content/uploads/2016/01/Mere-Generation.pdf>`_
+       (`Dan Ventura: Mere generation: Essential barometer or dated concept? <http://www.computationalcreativity.net/iccc2016/wp-content/uploads/2016/01/Mere-Generation.pdf>`_
        The Seventh International Conference on Computational Creativity (ICCC),
        17-24. Paris, France, June 2016.)
 
-..  #. | Figurative language:
+    #. | Linguistic creativity:
 
        `Tony Veale: Creative Language Retrieval: A Robust Hybrid of Information Retrieval and Linguistic Creativity. <http://afflatus.ucd.ie/Papers/Creative%20Retrieval%20ACL%202011.pdf>`_
        In Proceedings of the ACL’2011, the 49th Annual Meeting of the Association for Computational Linguistics:
        Human Language Technologies, 278-287, Portland, Oregon, USA, June 2011.
 
-    #. | Creativity as search:
+       `Llano et al.: Baseline Methods for Automated Fictional Ideation <http://mark.granroth-wilding.co.uk/files/iccc2014.pdf>`_
+       The Fifth International Conference on Computational Creativity (ICCC),
+       211-219. Ljubljana, June 2014.
+       (Read the section *Fictional Ideation using ReVerb*.)
+
+       Creativity as search:
 
        `Geraint A. Wiggins: A preliminary framework for description, analysis and comparison of creative systems. <http://www.sciencedirect.com/science/article/pii/S0950705106000645>`_
        Knowledge-Based Systems 19 (7): 449–458, 2006.
 
-    #. | Metacreativity and self-awareness:
+..  #. | Metacreativity and self-awareness:
 
        `Simo Linkola, Anna Kantosalo, Tomi Männistö and Hannu Toivonen:
        Aspects of Self-awareness: An Anatomy of Metacreative Systems. <http://computationalcreativity.net/iccc2017/ICCC_17_accepted_submissions/ICCC-17_paper_25.pdf>`_
