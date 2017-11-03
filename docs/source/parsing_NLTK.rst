@@ -63,7 +63,7 @@ Now, we have the raw version of the book. Next, we are going to remove the
 "bloat" that Project Gutenberg adds to the beginning and the end of the book. ::
 
 	# For reasons, lets remove the start and end bloat from the text
-	start = "I--DOWN THE RABBIT-HOLE"
+	start = r'\*\*\* START OF THIS PROJECT GUTENBERG EBOOK .+ \*\*\*'
 	end = "End of the Project Gutenberg"
 	start_index = alice_raw.find(start)
 	end_index = alice_raw.rfind(end)
