@@ -100,7 +100,7 @@ file.</p>
 <p>Now, we have the raw version of the book. Next, we are going to remove the
 “bloat” that Project Gutenberg adds to the beginning and the end of the book.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># For reasons, lets remove the start and end bloat from the text</span>
-<span class="n">start</span> <span class="o">=</span> <span class="s2">&quot;I--DOWN THE RABBIT-HOLE&quot;</span>
+<span class="n">start</span> <span class="o">=</span> <span class="sa">r</span><span class="s1">&#39;\*\*\* START OF THIS PROJECT GUTENBERG EBOOK .+ \*\*\*&#39;</span>
 <span class="n">end</span> <span class="o">=</span> <span class="s2">&quot;End of the Project Gutenberg&quot;</span>
 <span class="n">start_index</span> <span class="o">=</span> <span class="n">alice_raw</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">start</span><span class="p">)</span>
 <span class="n">end_index</span> <span class="o">=</span> <span class="n">alice_raw</span><span class="o">.</span><span class="n">rfind</span><span class="p">(</span><span class="n">end</span><span class="p">)</span>
