@@ -62,6 +62,25 @@ of two words that does not exist in the order-2 model’s distribution, it uses 
 treating just the single latest word as context.</p>
 <p>This is a form of a commonly used technique when working with Markov models, known as <em>backoff</em>.</p>
 </li>
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Use <code class="docutils literal"><span class="pre">nltk</span></code>’s <code class="docutils literal"><span class="pre">pos_tag</span></code>, refer to <a class="reference internal" href="parsing_NLTK.html"><span class="doc">Parsing Text with NLTK</span></a>, to obtain all nouns in the output of your <code class="docutils literal"><span class="pre">generate2</span></code>.
+If the generated text did not contain any nouns, re-generate it again until it contains at least one noun.</p>
+</li>
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Select a noun as a target concept from the nouns obtained in the previous exercise.
+Implement the approach described in Galvan et al. (2016) for generating rhetorical
+figures. The approach utilizes <a class="reference external" href="http://ngrams.ucd.ie/therex2/">Thesaurus Rex (v2)</a>’s API to retrieve
+categories and adjectival properties of the target concept, and search for potential source concepts.</p>
+</li>
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Use the analogy template “<strong>{TARGET} is as {PROP} as {SOURCE}</strong>” to construct a figurative sentence.
+Then, output the generated figurative sentence after the text produced by your Markov chain model.</p>
+</li>
+<li><p class="first">Alter the category selection method from random selection to
+randomly selecting a category that also contains the target concept.
+After that try out randomly selecting a category that does not contain the target concept. Based on your observations,
+which method seems to produce better figurative sentences?</p>
+</li>
+<li><p class="first"><strong>RETURN</strong> <em>(Text)</em> Analyze the creativity of the above analogy generator using
+Boden’s (1992) three types of creativity.</p>
+</li>
 </ol>
 </div>
 </div>

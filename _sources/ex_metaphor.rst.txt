@@ -25,3 +25,21 @@ Exercises
 
    This is a form of a commonly used technique when working with Markov models, known as *backoff*.
 
+#. **RETURN** *(Code)* Use ``nltk``'s ``pos_tag``, refer to :doc:`parsing_NLTK`, to obtain all nouns in the output of your ``generate2``.
+   If the generated text did not contain any nouns, re-generate it again until it contains at least one noun.
+
+#. **RETURN** *(Code)* Select a noun as a target concept from the nouns obtained in the previous exercise.
+   Implement the approach described in Galvan et al. (2016) for generating rhetorical
+   figures. The approach utilizes `Thesaurus Rex (v2) <http://ngrams.ucd.ie/therex2/>`_'s API to retrieve
+   categories and adjectival properties of the target concept, and search for potential source concepts.
+
+#. **RETURN** *(Code)* Use the analogy template "**{TARGET} is as {PROP} as {SOURCE}**" to construct a figurative sentence.
+   Then, output the generated figurative sentence after the text produced by your Markov chain model.
+
+#. Alter the category selection method from random selection to
+   randomly selecting a category that also contains the target concept.
+   After that try out randomly selecting a category that does not contain the target concept. Based on your observations,
+   which method seems to produce better figurative sentences?
+
+#. **RETURN** *(Text)* Analyze the creativity of the above analogy generator using
+   Boden's (1992) three types of creativity.

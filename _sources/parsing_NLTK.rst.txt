@@ -1,17 +1,19 @@
+.. _parsing_NLTK:
+
 Parsing Text with NLTK
 ======================
 
 `(full code) <https://github.com/assamite/cc-course-UH17/blob/master/week1/parsing_nltk.py>`_
 
 In this section we will parse a long written text, everyone's favorite tale
-*Alice's Adventures in  Wonderland* by Lewis Carroll, to be used to create the 
+*Alice's Adventures in  Wonderland* by Lewis Carroll, to be used to create the
 state transitions for Markov chains. In this example, we use
 `NLTK <http://www.nltk.org/>`_ for natural language processing (refer to
 `book <http://www.nltk.org/book/>`_ for clearer instructions on usage).
 However, many of the parsing tasks using NLTK could be adequately achieved with
 sufficiently simple regular expressions.
 
-.. note:: 
+.. note::
 	NLTK should be installed in your environment and its Punkt tokenizer
 	donwloaded. NLTK is contained in the ``requirements.txt``. To install it
 	separately use ``pip install nltk`` while your virtual environment is
@@ -68,7 +70,7 @@ Now, we have the raw version of the book. Next, we are going to remove the
 	start_index = alice_raw.find(start)
 	end_index = alice_raw.rfind(end)
 	alice = alice_raw[start_index:end_index]
-	
+
 	# And replace more than one subsequent whitespace chars with one space
 	alice = re.sub(r'\s+', ' ', alice)
 
@@ -131,4 +133,3 @@ in the text (one could also add a special token to the beginning). ::
 Now, the ``sanitized_sentences`` should be ready for the creation of state
 transition probabilities. However, it is left as an exercise together with the
 actual generation of texts.
-
