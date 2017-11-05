@@ -4,7 +4,7 @@ Assignments
 Assignments for the first part of the course. The group project instructions
 to be added elsewhere.
 
-.. warning:: 
+.. warning::
 	All assignments are returned through
 	`Moodle <https://moodle.helsinki.fi/course/view.php?id=26691>`_
  	(course key: cc2017). Do **not** send them by email!
@@ -46,8 +46,11 @@ to the week's topic.
        17-24. Paris, France, June 2016.)
 
     #. | Linguistic creativity:
+			 `Galvan et al.: Exploring the Role of Word Associations in the Construction of Rhetorical Figures <http://www.computationalcreativity.net/iccc2016/wp-content/uploads/2016/01/Exploring-the-Role-ofWord-Associations-in-the-Construction-of-Rhetorical-Figures.pdf>`_
+			 The Seventh International Conference on Computational Creativity (ICCC),
+			 222-229. Paris, France, June 2016.
 
-       `Tony Veale: Creative Language Retrieval: A Robust Hybrid of Information Retrieval and Linguistic Creativity. <http://afflatus.ucd.ie/Papers/Creative%20Retrieval%20ACL%202011.pdf>`_
+       (Optional) `Tony Veale: Creative Language Retrieval: A Robust Hybrid of Information Retrieval and Linguistic Creativity. <http://afflatus.ucd.ie/Papers/Creative%20Retrieval%20ACL%202011.pdf>`_
        In Proceedings of the ACL’2011, the 49th Annual Meeting of the Association for Computational Linguistics:
        Human Language Technologies, 278-287, Portland, Oregon, USA, June 2011.
 
@@ -141,4 +144,3 @@ it should extract, for example, to the following structure::
 		ex2.py
 		README # General info if needed
 		some_file.txt
-
