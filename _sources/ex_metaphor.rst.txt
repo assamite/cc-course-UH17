@@ -1,5 +1,5 @@
-Week 2 - Metaphor generation
-============================
+Week 2 - Markov Chains (cont.) and Metaphor Generation
+======================================================
 
 .. note::
     (6.11.17 13:57) The exercises are now in their final form!
