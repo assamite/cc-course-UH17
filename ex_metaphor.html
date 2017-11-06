@@ -43,7 +43,7 @@
 <h1>Week 2 - Metaphor generation<a class="headerlink" href="#week-2-metaphor-generation" title="Permalink to this headline">¶</a></h1>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">2.11.17 These assignments are still under development!</p>
+<p class="last">(6.11.17 13:57) The exercises are now in their final form!</p>
 </div>
 <div class="section" id="exercises">
 <h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
@@ -65,10 +65,17 @@ treating just the single latest word as context.</p>
 <li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Use <code class="docutils literal"><span class="pre">nltk</span></code>’s <code class="docutils literal"><span class="pre">pos_tag</span></code>, refer to <a class="reference internal" href="parsing_NLTK.html"><span class="doc">Parsing Text with NLTK</span></a>, to obtain all nouns in the output of your <code class="docutils literal"><span class="pre">generate2</span></code>.
 If the generated text did not contain any nouns, re-generate it again until it contains at least one noun.</p>
 </li>
-<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Select a noun as a target concept from the nouns obtained in the previous exercise.
-Implement the approach described in Galvan et al. (2016) for generating rhetorical
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Select a noun as a target concept from the nouns obtained in the previous exercise question.
+Implement the approach described in Galvan et al. (2016), under <em>Process</em> section, for generating rhetorical
 figures. The approach utilizes <a class="reference external" href="http://ngrams.ucd.ie/therex2/">Thesaurus Rex (v2)</a>’s API to retrieve
 categories and adjectival properties of the target concept, and search for potential source concepts.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">We will provide the template code to access the web service and do simple parsing for the returned XML.
+(Except it to be provided by Tuesday noon.)</p>
+</div>
+</div></blockquote>
 </li>
 <li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Use the analogy template “<strong>{TARGET} is as {PROP} as {SOURCE}</strong>” to construct a figurative sentence.
 Then, output the generated figurative sentence after the text produced by your Markov chain model.</p>
@@ -78,8 +85,13 @@ randomly selecting a category that also contains the target concept.
 After that try out randomly selecting a category that does not contain the target concept. Based on your observations,
 which method seems to produce better figurative sentences?</p>
 </li>
+<li><p class="first"><strong>RETURN</strong> <em>(Text)</em> How would you employ the above approach in a creative system producing poems?
+Write a brief outline of your approach.</p>
+</li>
 <li><p class="first"><strong>RETURN</strong> <em>(Text)</em> Analyze the creativity of the above analogy generator using
-Boden’s (1992) three types of creativity.</p>
+Boden’s (1992) three types of creativity, refer to slides of first week
+(<a class="reference external" href="https://courses.helsinki.fi/sites/default/files/course-material/4524022/CompCreativityToivonen_30_10_2017.pdf">1</a>
+and <a class="reference external" href="https://courses.helsinki.fi/sites/default/files/course-material/4524230/CompCreativityToivonen_1-11-2017b.pdf">2</a>).</p>
 </li>
 </ol>
 </div>
