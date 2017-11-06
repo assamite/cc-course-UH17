@@ -2,7 +2,7 @@ Week 2 - Metaphor generation
 ============================
 
 .. note::
-    2.11.17 These assignments are still under development!
+    (6.11.17 13:57) The exercises are now in their final form!
 
 Exercises
 ---------
@@ -33,6 +33,10 @@ Exercises
    figures. The approach utilizes `Thesaurus Rex (v2) <http://ngrams.ucd.ie/therex2/>`_'s API to retrieve
    categories and adjectival properties of the target concept, and search for potential source concepts.
 
+    .. note::
+        We will provide the template code to access the web service and do simple parsing for the returned XML.
+        (Except it to be provided by Tuesday noon.)
+
 #. **RETURN** *(Code)* Use the analogy template "**{TARGET} is as {PROP} as {SOURCE}**" to construct a figurative sentence.
    Then, output the generated figurative sentence after the text produced by your Markov chain model.
 
@@ -41,7 +45,8 @@ Exercises
    After that try out randomly selecting a category that does not contain the target concept. Based on your observations,
    which method seems to produce better figurative sentences?
 
-#. **RETURN** *(Text)* How would you employ the above approach in a poem generator?
+#. **RETURN** *(Text)* How would you employ the above approach in a creative system producing poems?
+   Write a brief outline of your approach.
 
 #. **RETURN** *(Text)* Analyze the creativity of the above analogy generator using
    Boden's (1992) three types of creativity, refer to slides of first week
