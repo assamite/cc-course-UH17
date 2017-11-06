@@ -34,8 +34,18 @@ Exercises
    categories and adjectival properties of the target concept, and search for potential source concepts.
 
     .. note::
-        We will provide the template code to access the web service and do simple parsing for the returned XML.
-        (Except it to be provided by Tuesday noon.)
+        Use the class ``TheRex`` implemented in `therex.py <https://github.com/assamite/cc-course-UH17/blob/master/week2/therex.py>`_
+        to access Thesaurus Rex's web service. The library requires ``requests`` and ``xmltodict`` python packages. To install them,
+        execute ``pip install requests xmltodict`` in your terminal.
+
+        Below is a sample code of using the class:
+
+		>>> from therex import TheRex
+		>>> tr = TheRex()
+		>>> tr.member('cat') # get properties and categories of a cat
+		>>> tr.category('furry', 'animal') # find concepts that are furry and fall under the animal category
+
+
 
 #. **RETURN** *(Code)* Use the analogy template "**{TARGET} is as {PROP} as {SOURCE}**" to construct a figurative sentence.
    Then, output the generated figurative sentence after the text produced by your Markov chain model.
