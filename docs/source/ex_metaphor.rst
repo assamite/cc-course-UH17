@@ -36,7 +36,7 @@ Exercises
     .. note::
         Use the class ``TheRex`` implemented in `therex.py <https://github.com/assamite/cc-course-UH17/blob/master/week2/therex.py>`_
         to access Thesaurus Rex's web service. The library requires ``requests`` and ``xmltodict`` python packages. To install them,
-        execute ``pip install requests xmltodict`` in your terminal.
+        execute ``pip install requests xmltodict`` in your terminal (and virtual environment).
 
         Below is a sample code of using the class:
 
