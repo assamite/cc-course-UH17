@@ -43,7 +43,7 @@ Exercises
 		>>> from therex import TheRex
 		>>> tr = TheRex()
 		>>> tr.member('cat') # get properties and categories of a cat
-		>>> tr.category('furry', 'animal') # find concepts that are furry and fall under the animal category
+		>>> tr.category('furry', 'animal') # furry concepts in animal category
 
         Remember that Thesaurus Rex is a proof-of-concept web service, so use
         *throttling* when accessing it. That is, add a little pause between your
