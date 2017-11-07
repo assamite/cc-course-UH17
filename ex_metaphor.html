@@ -72,8 +72,19 @@ categories and adjectival properties of the target concept, and search for poten
 <blockquote>
 <div><div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">We will provide the template code to access the web service and do simple parsing for the returned XML.
-(Except it to be provided by Tuesday noon.)</p>
+<p>Use the class <code class="docutils literal"><span class="pre">TheRex</span></code> implemented in <a class="reference external" href="https://github.com/assamite/cc-course-UH17/blob/master/week2/therex.py">therex.py</a>
+to access Thesaurus Rex’s web service. The library requires <code class="docutils literal"><span class="pre">requests</span></code> and <code class="docutils literal"><span class="pre">xmltodict</span></code> python packages. To install them,
+execute <code class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">requests</span> <span class="pre">xmltodict</span></code> in your terminal (and virtual environment).</p>
+<p>Below is a sample code of using the class:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">therex</span> <span class="k">import</span> <span class="n">TheRex</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tr</span> <span class="o">=</span> <span class="n">TheRex</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tr</span><span class="o">.</span><span class="n">member</span><span class="p">(</span><span class="s1">&#39;cat&#39;</span><span class="p">)</span> <span class="c1"># get properties and categories of a cat</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tr</span><span class="o">.</span><span class="n">category</span><span class="p">(</span><span class="s1">&#39;furry&#39;</span><span class="p">,</span> <span class="s1">&#39;animal&#39;</span><span class="p">)</span> <span class="c1"># find concepts that are furry and fall under the animal category</span>
+</pre></div>
+</div>
+<p class="last">Remember that Thesaurus Rex is a proof-of-concept web service, so use
+<em>throttling</em> when accessing it. That is, add a little pause between your
+calls when querying it in a loop.</p>
 </div>
 </div></blockquote>
 </li>
