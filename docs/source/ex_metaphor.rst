@@ -45,7 +45,9 @@ Exercises
 		>>> tr.member('cat') # get properties and categories of a cat
 		>>> tr.category('furry', 'animal') # find concepts that are furry and fall under the animal category
 
-
+        Remember that Thesaurus Rex is a proof-of-concept web service, so use
+        *throttling* when accessing it. That is, add a little pause between your
+        calls when querying it in a loop.
 
 #. **RETURN** *(Code)* Use the analogy template "**{TARGET} is as {PROP} as {SOURCE}**" to construct a figurative sentence.
    Then, output the generated figurative sentence after the text produced by your Markov chain model.
