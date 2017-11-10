@@ -2,7 +2,7 @@ Week 3 - Fictional Fact Generation
 ==================================
 
 .. note::
-    1.11.17 These assignments are still subject to change.
+    10.11.17 These assignments are still subject to change.
 
 Introduction
 ------------
@@ -122,3 +122,7 @@ Exercises
 
    Submit some examples of the output produced by your combined system, together with a brief analysis of
    what the system produced, its limitations and how they might be addressed. (A couple of sentences.)
+
+#. **Exercise relating to paper not added yet**
+
+#. **Exercise relating to paper not added yet**
