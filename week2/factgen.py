@@ -17,7 +17,7 @@ def read_triples(filename, min_attested=0):
     Note that everything is lowercased, so you should lowercase your queries as well.
 
     """
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf-8") as f:
         data = f.read()
     fields = [line.split("\t") for line in data.split("\n") if line]
     # The LHS, predicate and RHS are in columns 1 to 3
