@@ -123,7 +123,7 @@ Exercises
    Submit some examples of the output produced by your combined system, together with a brief analysis of
    what the system produced, its limitations and how they might be addressed. (A couple of sentences.)
 
-#. **RETURN** *(Text)* In their work Aspects of Self-awareness: An Anatomy of Metacreative Systems,
+#. **RETURN** *(Text)* (word limit 200) In their work Aspects of Self-awareness: An Anatomy of Metacreative Systems,
    Linkola et al. propose a model for metacreative systems. Given your made-up fact generation code
    used in conjunction with Markov chains (Ex 4.), how could you alter it to make it metacreative?
    That is, what kind of information can you gain from it (*reflection*) and how can you adjust
@@ -132,7 +132,7 @@ Exercises
    Feel free to modify your generator in this thought experiment (but state clearly what
    kind of generator are you describing), e.g. by making it generate in a for-loop.
 
-#. **RETURN** *(Text)* Given your Markov chain, metaphor generation code and made-up
+#. **RETURN** *(Text)* (word limit 200) Given your Markov chain, metaphor generation code and made-up
    fact generator, how could you combine these into a poem producing system? Use
    all three components in the system, possibly in several ways. Describe, in a clear
    but brief manner, how the components are connected, and also describe how your system
