@@ -64,8 +64,18 @@ The second part of the course consists of group projects and lectures. The group
 done in groups of 2-3 persons.
 There is a weekly deadline on Wednesdays where the groups
 informally present their work so far and on the last week there is *a demo session* which
-is compulsory for all the students. (On the week of 100th Finnish independence day,
-the deadline is either on Thursday or there is no deadline.)
+is compulsory for all the students. On the week of 100th Finnish independence day,
+the deadline is on Thursday.
+
+Rough schedule:
+    - Wed 22.11. Formation of groups, groups have their members listed and an initial topic idea (domain, etc.) on Moodle
+    - Wed 29.11. Group topics fixed, group topic and repository link on Moodle
+    - Thu 7.12. Update on group's situation on Moodle
+    - Wed 13.12. Demo session and last update on Moodle
+
+On each Moodle update, state clearly what each group member has done towards the
+project after the last Moodle update. On the last Moodle update (Wed 13.12.),
+also give a summary of everybody's work towards the whole project.
 
 Topic
 .....
