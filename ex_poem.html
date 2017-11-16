@@ -50,22 +50,50 @@
 <p>In the previous weeks, you have implemented several different methods for
 generating creative text output. Your main task this week is to combine
 these methods to build a system that generates poems.</p>
+<p>The exercises will give you a lot of freedom to design your own way of producing
+poems. This might sound demanding to some, but this is a typical case in computational
+creativity. There are no pre-given instructions on how to tackle the problem.
+Therefore, you as a system’s designer must reason on your choices and pick the
+right tools.</p>
+<p><em>Have fun, and be creative while developing your poem system!</em></p>
 </div>
 <div class="section" id="exercises">
 <h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
 <li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Combine made-up fact generation (week 3.) and metaphor
-generation (week 2.) to produce a pair of poem lines.</p>
+generation (week 2.) to produce two lines of a poem.</p>
 <p>That is, on both lines of the poem you use at least one of the above mentioned
-methods. The rest of the lines you can produce, e.g. with your Markov model.</p>
+methods. The rest of the lines you can produce, e.g. with your Markov model.
+An example would be to:</p>
+<blockquote>
+<div><ul class="simple">
+<li>start the first line with a made-up fact and produce the rest of the
+line with Markov model, and</li>
+<li>end the second line with a metaphor, producing the start of the line
+with the Markov model (to be able to produce text from end to start, you
+have to train another Markov model from the reversed corpus).</li>
+</ul>
+</div></blockquote>
 <p>The meter, rhyming, etc., are yours to design. The only requirement is that
 the two lines should be <em>connected</em> in some way. The connection can be, e.g.
 ensuring that a same word is used on both lines, they match semantically or
 in their sentiment, or something else.</p>
-<p>Concentrate on a simple implementation which produces varying output! You can
+<p>Concentrate on a simple implementation which produces varying outputs! You can
 also develop the made-up fact generation and metaphor generation further to
 achieve more varying poem lines.</p>
 <p><strong>In your code, clearly state what the code is supposed to do by commenting it.</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Use existing tools as much as you like. For example:</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li><a class="reference external" href="https://pypi.python.org/pypi/pronouncing">a simple Python library for CMU’s pronunciation dictionary</a></li>
+<li><a class="reference external" href="http://www.nltk.org/book/">NLTK’s various tools</a></li>
+<li><a class="reference external" href="http://afflatus.ucd.ie/article.do?action=list&amp;categoryId=4">assorted web services done by the creative language group in UCD</a></li>
+<li>etc.</li>
+</ul>
+</div></blockquote>
+</div>
 </li>
 <li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Combine two poem line pairs (from the above exercise) to
 create a four line poem. Again, you can design them any way you like, but
