@@ -129,6 +129,8 @@ a separate Moodle assignment for them.
     #. :doc:`ex_mc_parsing`
     #. :doc:`ex_metaphor`
     #. :doc:`ex_fact_generation`
+
+..
     #. :doc:`ex_poem`
 
 ..
