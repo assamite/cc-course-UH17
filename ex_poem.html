@@ -43,7 +43,7 @@
 <h1>Week 4 - Poem Generation and Evaluation<a class="headerlink" href="#week-4-poem-generation-and-evaluation" title="Permalink to this headline">¶</a></h1>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">10.11.17 These assignments have not been written yet.</p>
+<p class="last">16.11.17 The assignments are not yet in their final form.</p>
 </div>
 <div class="section" id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
@@ -53,8 +53,43 @@ these methods to build a system that generates poems.</p>
 </div>
 <div class="section" id="exercises">
 <h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
-<ol class="arabic simple">
-<li><strong>Exercises not written yet</strong></li>
+<ol class="arabic">
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Combine made-up fact generation (week 3.) and metaphor
+generation (week 2.) to produce a pair of poem lines.</p>
+<p>That is, on both lines of the poem you use at least one of the above mentioned
+methods. The rest of the lines you can produce, e.g. with your Markov model.</p>
+<p>The meter, rhyming, etc., are yours to design. The only requirement is that
+the two lines should be <em>connected</em> in some way. The connection can be, e.g.
+ensuring that a same word is used on both lines, they match semantically or
+in their sentiment, or something else.</p>
+<p>Concentrate on a simple implementation which produces varying output! You can
+also develop the made-up fact generation and metaphor generation further to
+achieve more varying poem lines.</p>
+<p><strong>In your code, clearly state what the code is supposed to do by commenting it.</strong></p>
+</li>
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Combine two poem line pairs (from the above exercise) to
+create a four line poem. Again, you can design them any way you like, but
+the result should (hopefully) be “poem like”, and there should be some
+connection between the pairs of lines.</p>
+<p><strong>In your code, clearly state what the code is supposed to do by commenting it.</strong></p>
+</li>
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Poem evaluation. Design and implement a function
+<code class="docutils literal"><span class="pre">evaluate(poem)</span></code>, which takes as input a single four line poem and outputs
+an evaluation for it.</p>
+<p>The function can measure any features from the poem you see as important.
+Again, concentrate on simple implementations which are maximally robust and
+give varying evaluations.</p>
+<p><strong>In your code, clearly state what the code is supposed to do by commenting it.</strong></p>
+</li>
+<li><p class="first"><strong>RETURN</strong> <em>(Text Output)</em> Create poems in a loop and use your <code class="docutils literal"><span class="pre">evaluate</span></code>
+function as a filter to throw away poems evaluated poor enough. Collect some
+5-10 poems which your code observes good enough and add them as your answer.
+Briefly, analyse your collected poems and their relation to evaluation and
+poem generation methods.</p>
+</li>
+<li><p class="first"><strong>RETURN</strong> <em>(Text)</em> Some question about the article, hopefully in relation to
+the above questions.</p>
+</li>
 </ol>
 </div>
 </div>
