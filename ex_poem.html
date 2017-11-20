@@ -60,28 +60,31 @@ right tools.</p>
 <div class="section" id="exercises">
 <h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Combine made-up fact generation (week 3.) and metaphor
-generation (week 2.) to produce two lines of a poem.</p>
-<p>That is, on both lines of the poem you use at least one of the above mentioned
-methods. The rest of the lines you can produce, e.g. with your Markov model.
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Design an implement a function <code class="docutils literal"><span class="pre">couplet(*args,</span> <span class="pre">**kwargs)</span></code>,
+where you combine made-up fact generation (week 3.) and figurative language generation (week 2.)
+to produce two lines of a poem.</p>
+<p>To produce the lines, you use at least once the made-up fact generation and once
+figurative language generation. The rest of the lines you can produce, e.g. with your Markov model.
 An example would be to:</p>
 <blockquote>
 <div><ul class="simple">
 <li>start the first line with a made-up fact and produce the rest of the
 line with Markov model, and</li>
-<li>end the second line with a metaphor, producing the start of the line
+<li>end the second line with an analogy and producing the start of the line
 with the Markov model (to be able to produce text from end to start, you
 have to train another Markov model from the reversed corpus).</li>
 </ul>
 </div></blockquote>
+<p>The possible <code class="docutils literal"><span class="pre">*args</span></code> and <code class="docutils literal"><span class="pre">**kwargs</span></code> given to the function should be clearly
+described in the function’s doc string.</p>
 <p>The meter, rhyming, etc., are yours to design. The only requirement is that
 the two lines should be <em>connected</em> in some way. The connection can be, e.g.
 ensuring that a same word is used on both lines, they match semantically or
 in their sentiment, or something else.</p>
 <p>Concentrate on a simple implementation which produces varying outputs! You can
-also develop the made-up fact generation and metaphor generation further to
+also develop the made-up fact generation and figurative language generation further to
 achieve more varying poem lines.</p>
-<p><strong>In your code, clearly state what the code is supposed to do by commenting it.</strong></p>
+<p><strong>Submit runnable code (call the ``couplet`` function with appropriate arguments in your code so that it is runnable from the command line). Also, clearly state what the code is supposed to do by commenting it.</strong></p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p>Use existing tools as much as you like. For example:</p>
@@ -95,28 +98,52 @@ achieve more varying poem lines.</p>
 </div></blockquote>
 </div>
 </li>
-<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Combine two poem line pairs (from the above exercise) to
-create a four line poem. Again, you can design them any way you like, but
+<li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Design and implement a function <code class="docutils literal"><span class="pre">generate_poem(*args,</span> <span class="pre">**kwargs)</span></code>,
+where you combine two couplets (from the above exercise) to
+create a four line poem. Again, you can design the function any way you like, but
 the result should (hopefully) be “poem like”, and there should be some
-connection between the pairs of lines.</p>
-<p><strong>In your code, clearly state what the code is supposed to do by commenting it.</strong></p>
+connection between the pairs of lines. Hopefully, you can introduce some
+interesting twists between the couplets.</p>
+<p>The possible <code class="docutils literal"><span class="pre">*args</span></code> and <code class="docutils literal"><span class="pre">**kwargs</span></code> given to the function should be clearly
+described in the function’s doc string.</p>
+<p><strong>Submit runnable code (call the ``generate_poem`` function with appropriate arguments in your code so that it is runnable from the command line). Also, clearly state what the code is supposed to do by commenting it.</strong></p>
 </li>
 <li><p class="first"><strong>RETURN</strong> <em>(Code)</em> Poem evaluation. Design and implement a function
-<code class="docutils literal"><span class="pre">evaluate(poem)</span></code>, which takes as input a single four line poem and outputs
+<code class="docutils literal"><span class="pre">evaluate(poem,</span> <span class="pre">*args,</span> <span class="pre">**kwargs)</span></code>, which takes as input a single four line poem and outputs
 an evaluation for it.</p>
+<p>The possible <code class="docutils literal"><span class="pre">*args</span></code> and <code class="docutils literal"><span class="pre">**kwargs</span></code> given to the function should be clearly
+described in the function’s doc string.</p>
 <p>The function can measure any features from the poem you see as important.
 Again, concentrate on simple implementations which are maximally robust and
 give varying evaluations.</p>
-<p><strong>In your code, clearly state what the code is supposed to do by commenting it.</strong></p>
+<p>Examples of evaluation (you don’t have to use as many criteria, and we encourage you to implement your own ideas):</p>
+<blockquote>
+<div><ul class="simple">
+<li>Is the rhyming in the whole poem consistent?</li>
+<li>Does the poem match to a certain meter, e.g. a meter in Kalevala or a limerick?</li>
+<li>Is the poem semantically sound?</li>
+<li>Is the word ‘cat’ in the poem?</li>
+<li>Does the poem talk about animals in general?</li>
+<li>Does the poem contain synonyms?</li>
+<li>Is the poem likely to evoke an emotion? (see <a class="reference external" href="http://wndomains.fbk.eu/wnaffect.html">wordnet-affect</a>)</li>
+<li>How balanced are the consonants and vowels in the poem?</li>
+<li>Is the poem grammatically correct?</li>
+</ul>
+</div></blockquote>
+<p><strong>Submit runnable code (call the ``evaluate`` function with appropriate arguments in your code so that it is runnable from the command line). Also, clearly state what the code is supposed to do by commenting it.</strong></p>
 </li>
 <li><p class="first"><strong>RETURN</strong> <em>(Text Output)</em> Create poems in a loop and use your <code class="docutils literal"><span class="pre">evaluate</span></code>
 function as a filter to throw away poems evaluated poor enough. Collect some
 5-10 poems which your code observes good enough and add them as your answer.
-Briefly, analyse your collected poems and their relation to evaluation and
-poem generation methods.</p>
+Briefly, analyse your collected poems and their relation to your intent with
+the generation. Reflect your analysis on your implementations of the poem
+evaluation and generation methods.</p>
 </li>
-<li><p class="first"><strong>RETURN</strong> <em>(Text)</em> Some question about the article, hopefully in relation to
-the above questions.</p>
+<li><p class="first"><strong>RETURN</strong> <em>(Text)</em> (200 words) Imagine your poem producing system as a part of a larger
+agent society. How could it take advantage of the domain or the field as
+described by Csikszentmilahyi’s systems view of creativity (see, <a class="reference external" href="http://cs.gmu.edu/~jgero/publications/2001/SaundersGeroHI01.pdf">Saunders and Gero: Artificial creativity: A synthetic approach to the study of creative behaviour</a>)?
+What kind of emergent behavior could the system gain from these aspects?
+What kind of emergence could the system induce in the whole society?</p>
 </li>
 </ol>
 </div>
