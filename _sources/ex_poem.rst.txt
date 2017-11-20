@@ -2,7 +2,7 @@ Week 4 - Poem Generation and Evaluation
 =======================================
 
 .. note::
-    16.11.17 The assignments are not yet in their final form.
+    20.11.17 17:01 The assignments are in their final form.
 
 Introduction
 ------------
