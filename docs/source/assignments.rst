@@ -64,13 +64,14 @@ to the week's topic.
        `Geraint A. Wiggins: A preliminary framework for description, analysis and comparison of creative systems. <http://www.sciencedirect.com/science/article/pii/S0950705106000645>`_
        Knowledge-Based Systems 19 (7): 449–458, 2006.
 
-..  #. | Metacreativity and self-awareness:
+    #. | Metacreativity and self-awareness:
 
        `Simo Linkola, Anna Kantosalo, Tomi Männistö and Hannu Toivonen:
        Aspects of Self-awareness: An Anatomy of Metacreative Systems. <http://computationalcreativity.net/iccc2017/ICCC_17_accepted_submissions/ICCC-17_paper_25.pdf>`_
        The Eighth International Conference on Computational Creativity (ICCC),
        189-196. Atlanta, GA, June 2017.
 
+..
     #. | Evaluation of creative processes, the FACE model:
 
        `Anna Jourdanous: Four PPPPerspectives on computational creativity in theory and in practice. <http://dx.doi.org/10.1080/09540091.2016.1151860>`_
@@ -129,8 +130,6 @@ a separate Moodle assignment for them.
     #. :doc:`ex_mc_parsing`
     #. :doc:`ex_metaphor`
     #. :doc:`ex_fact_generation`
-
-..
     #. :doc:`ex_poem`
 
 ..
