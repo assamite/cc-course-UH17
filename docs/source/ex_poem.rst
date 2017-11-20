@@ -2,7 +2,7 @@ Week 4 - Poem Generation and Evaluation
 =======================================
 
 .. note::
-    16.11.17 The assignments are not yet in their final form.
+    20.11.17 17:01 The assignments are in their final form.
 
 Introduction
 ------------
@@ -104,7 +104,7 @@ Exercises
 
 #. **RETURN** *(Text)* (200 words) Imagine your poem producing system as a part of a larger
    agent society. How could it take advantage of the domain or the field as
-   described by Csikszentmilahyi's systems view of creativity (see, `Saunders and Gero: Artificial creativity: A synthetic approach to the study of creative behaviour <http://cs.gmu.edu/~jgero/publications/2001/SaundersGeroHI01.pdf>`_)?
+   described by Csikszentmihalyi's systems view of creativity (see, `Saunders and Gero: Artificial creativity: A synthetic approach to the study of creative behaviour <http://cs.gmu.edu/~jgero/publications/2001/SaundersGeroHI01.pdf>`_)?
    What kind of emergent behavior could the system gain from these aspects?
    What kind of emergence could the system induce in the whole society?
 

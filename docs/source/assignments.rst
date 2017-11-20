@@ -71,6 +71,12 @@ to the week's topic.
        The Eighth International Conference on Computational Creativity (ICCC),
        189-196. Atlanta, GA, June 2017.
 
+    #. | Social creativity:
+
+       `Saunders, R and Gero, JS: Artificial creativity: A synthetic approach to the study of creative behaviour <http://cs.gmu.edu/~jgero/publications/2001/SaundersGeroHI01.pdf>`_,
+       in JS Gero and ML Maher (eds), Computational and Cognitive Models of Creative Design V,
+       Key Centre of Design Computing and Cognition, University of Sydney, Sydney, pp. 113-139, 2001.
+
 ..
     #. | Evaluation of creative processes, the FACE model:
 
