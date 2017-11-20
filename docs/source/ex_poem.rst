@@ -68,7 +68,7 @@ Exercises
    The possible ``*args`` and ``**kwargs`` given to the function should be clearly
    described in the function's doc string.
 
-   **Submit runnable code (call the ``poem`` function with appropriate arguments in your code so that it is runnable from the command line). Also, clearly state what the code is supposed to do by commenting it.**
+   **Submit runnable code (call the ``generate_poem`` function with appropriate arguments in your code so that it is runnable from the command line). Also, clearly state what the code is supposed to do by commenting it.**
 
 #. **RETURN** *(Code)* Poem evaluation. Design and implement a function
    ``evaluate(poem, *args, **kwargs)``, which takes as input a single four line poem and outputs
