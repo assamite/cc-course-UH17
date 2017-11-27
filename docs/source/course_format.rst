@@ -96,7 +96,11 @@ Grading
 .......
 
 The project is graded based on:
-    #. the observed and described creativity (process and output) of the system (20p),
+    #. the observed and described creativity (process and output) of the system (20p)
+
+        #. 10p from the demo
+        #. 10p from the take-home exam.
+
     #. light weight documentation (5p), and
     #. quality of the code (5p).
 
@@ -107,6 +111,10 @@ involves overall nice architecture, and *descriptive function and
 module documentation*. The weights of these three parts are approx. 66% for the
 first part and 33% divided for the last two parts. The individual's ability to
 contribute to the group project is reflected on the individual grades.
+
+The light weight documentation's system description can be used in the take-home
+exam as is, or each group member can modify the description as they like so they
+can emphasize different aspects of the project in their answers.
 
 .. warning::
     The demo session date is fixed to 13.12. 14-16!
