@@ -96,9 +96,9 @@ Grading
 .......
 
 The project is graded based on:
-    #. the observed and described creativity (process and output) of the system,
-    #. light weight documentation, and
-    #. quality of the code.
+    #. the observed and described creativity (process and output) of the system (20p),
+    #. light weight documentation (5p), and
+    #. quality of the code (5p).
 
 The creativity of the system is mainly graded based on the group's weekly reports
 and especially the demo session. Light weight documentation considers the running
@@ -110,6 +110,14 @@ contribute to the group project is reflected on the individual grades.
 
 .. warning::
     The demo session date is fixed to 13.12. 14-16!
+
+Submissions
+...........
+
+The mini-projects are submitted using Moodle. On the demo session date, you will
+update your project's thread the last time and make **a git tag** for the
+submission clearly stating it as the tag which is intended to be submitted.
+See instructions for `git tags <https://git-scm.com/book/en/v2/Git-Basics-Tagging>`_.
 
 Take Home Exam
 --------------
