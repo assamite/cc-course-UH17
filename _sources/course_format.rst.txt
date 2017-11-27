@@ -96,9 +96,13 @@ Grading
 .......
 
 The project is graded based on:
-    #. the observed and described creativity (process and output) of the system,
-    #. light weight documentation, and
-    #. quality of the code.
+    #. the observed and described creativity (process and output) of the system (20p)
+
+        #. 10p from the demo
+        #. 10p from the take-home exam.
+
+    #. light weight documentation (5p), and
+    #. quality of the code (5p).
 
 The creativity of the system is mainly graded based on the group's weekly reports
 and especially the demo session. Light weight documentation considers the running
@@ -108,8 +112,20 @@ module documentation*. The weights of these three parts are approx. 66% for the
 first part and 33% divided for the last two parts. The individual's ability to
 contribute to the group project is reflected on the individual grades.
 
+The light weight documentation's system description can be used in the take-home
+exam as is, or each group member can modify the description as they like so they
+can emphasize different aspects of the project in their answers.
+
 .. warning::
     The demo session date is fixed to 13.12. 14-16!
+
+Submissions
+...........
+
+The mini-projects are submitted using Moodle. On the demo session date, you will
+update your project's thread the last time and make **a git tag** for the
+submission clearly stating it as the tag which is intended to be submitted.
+See instructions for `git tags <https://git-scm.com/book/en/v2/Git-Basics-Tagging>`_.
 
 Take Home Exam
 --------------
